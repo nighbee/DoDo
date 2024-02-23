@@ -12,7 +12,7 @@ class Detailed : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detailed)
 
-        // Bind views from XML layout
+
         val tvimg: ImageView = findViewById(R.id.img)
         val tvName: TextView = findViewById(R.id.name)
         val tvPrice: TextView = findViewById(R.id.button)
@@ -21,17 +21,14 @@ class Detailed : AppCompatActivity() {
         val pizza: Pizza? = intent.getParcelableExtra("pizza")
 
         if (pizza != null) {
-            // Set the pizza name
+
             tvName.text = pizza.name
 
-            // Set the pizza image
             tvimg.setImageResource(pizza.image)
 
-            // Set the pizza price
             val priceText = "${pizza.price} KZT"
             tvPrice.text = priceText
 
-            // Set the pizza description
             tvDescription.text = pizza.description
         }
     }
