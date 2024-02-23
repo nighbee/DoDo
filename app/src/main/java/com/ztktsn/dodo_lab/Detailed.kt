@@ -28,7 +28,7 @@ class Detailed : AppCompatActivity() {
             tvimg.setImageResource(pizza.image)
 
             // Set the pizza price
-            val priceText = "Price: ${pizza.price} KZT"
+            val priceText = "${pizza.price} KZT"
             tvPrice.text = priceText
 
             // Set the pizza description

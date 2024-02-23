@@ -13,12 +13,12 @@ class MainActivity : AppCompatActivity(), PizzaAdapter.OnPizzaClickListener, Piz
 
     private lateinit var pizzaAdapter: PizzaAdapter
     private val pizzaList = listOf(
-        Pizza("1", "Meat BBQ", R.drawable.naruto, "Succulent BBQ sauce, tender meat, and melted cheese meld together in this flavorful pizza.", "2500tg"),
-        Pizza("2", "Pepperoni", R.drawable.pepperoni, "Classic and irresistible, our pepperoni pizza is loaded with zesty pepperoni slices and gooey cheese.", "3500tg"),
-        Pizza("3", "Tomato With Olives", R.drawable.smeshariki, "A delightful combination of fresh tomatoes and savory olives makes this pizza a Mediterranean-inspired delight.", "2300tg"),
-        Pizza("4", "Mushrooms With Olives", R.drawable.vay, "Our mushrooms with olives pizza is a delightful blend of earthy mushrooms and briny olives, creating a harmonious combination of flavors.", "2600tg"),
-        Pizza("5", "Mushrooms With Beacon", R.drawable.vetchina, "Indulge in the perfect balance of smoky bacon and savory mushrooms with our mushrooms with bacon pizza. Each bite offers a burst of rich flavors.", "2100tg"),
-        Pizza("6", "Mushrooms", R.drawable.mooshroom, "Our mushroom pizza is a vegetarian delight, featuring a medley of fresh mushrooms that lend their distinct earthy taste to every bite.", "3600tg")
+        Pizza("1", "Meat BBQ", R.drawable.naruto, "Succulent BBQ sauce, tender meat, and melted cheese meld together in this flavorful pizza.", "2500"),
+        Pizza("2", "Pepperoni", R.drawable.pepperoni, "Classic and irresistible, our pepperoni pizza is loaded with zesty pepperoni slices and gooey cheese.", "3500"),
+        Pizza("3", "Tomato With Olives", R.drawable.smeshariki, "A delightful combination of fresh tomatoes and savory olives makes this pizza a Mediterranean-inspired delight.", "2300"),
+        Pizza("4", "Mushrooms With Olives", R.drawable.vay, "Our mushrooms with olives pizza is a delightful blend of earthy mushrooms and briny olives, creating a harmonious combination of flavors.", "2600"),
+        Pizza("5", "Mushrooms With Beacon", R.drawable.vetchina, "Indulge in the perfect balance of smoky bacon and savory mushrooms with our mushrooms with bacon pizza. Each bite offers a burst of rich flavors.", "2100"),
+        Pizza("6", "Mushrooms", R.drawable.mooshroom, "Our mushroom pizza is a vegetarian delight, featuring a medley of fresh mushrooms that lend their distinct earthy taste to every bite.", "3600")
     )
 
     private lateinit var filteredList: MutableList<Pizza>
