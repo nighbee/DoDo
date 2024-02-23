@@ -22,7 +22,7 @@
             android:hint="Search pizza"
             android:inputType="text"
             android:maxLines="1"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             />
         <Button
             android:id="@+id/searchButton"
