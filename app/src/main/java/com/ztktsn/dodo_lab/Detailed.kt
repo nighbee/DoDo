@@ -31,5 +31,16 @@ class Detailed : AppCompatActivity() {
 
             tvDescription.text = pizza.description
         }
+
+        val combo: Combo? = intent.getParcelableExtra("combo")
+
+        if( combo != null){
+
+            tvName.text = combo.name
+            tvimg.setImageResource(combo.image)
+            val priceText = "${combo.price} KZT"
+            tvPrice.text= priceText
+            tvDescription.text= combo.description
+        }
     }
 }
